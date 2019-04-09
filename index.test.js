@@ -17,5 +17,5 @@ test("Input validation", () => {
   fireEvent.change(input, { target: { value: "3" } });
 
   expect(input.value).toBe("3");
-  expect(input.validity.stepMismatch).toBe(false);
+  expect(input.validityÌ.stepMismatch).toBe(false);
 });
